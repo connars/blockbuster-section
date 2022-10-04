@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB section</title>
+</head>
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .line{
+            height: 2px;
+            width: 50px;
+            background-color: #B4C842;
+        }
+
+        .section__wrapper {
+            display: flex;
+            height: 100vh;
+        }
+
+        .right__section , .left__section{
+            width: 50%;
+        }
+
+        .left__section{
+            height: 100%;
+            background-image: url(https://www.blockbuster.love/wp-content/uploads/2022/09/Mask-group.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            display: flex;
+            justify-items: end;
+            justify-content: end;
+            align-items: flex-end;
+        }
+
+        .right__section{
+            height: 100%;
+            background-image: url(https://www.blockbuster.love/wp-content/uploads/2022/09/Eduardo_Akhramovych-2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .left__bottom-text{
+            height: 100%;
+            padding: 10px;
+            background-color: #00689F;
+            border-radius: 20px 0px 0px 0px;
+            padding-bottom: 0;
+            padding-top:0;
+        }
+        
+        .left__bottom-text p {
+            font-size: 14px;
+        }
+
+        .left__bottom-text h3 {
+            padding-top: 20px;
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+
+        .right__bottom-text h3 {
+            padding-top: 20px;
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+
+        
+        .right__bottom-text{
+       
+            height: 100%;
+            padding: 10px;
+            background-color: white;
+            border-radius: 0px 0px 20px 0px;
+            padding-bottom: 0;
+            padding-top:0;
+        }
+
+        .right__bottom-text p {
+            font-size: 14px;
+        }
+
+        .height__control-r {
+            width: 32%;
+            height: 50%;
+        }
+        .height__control {
+            width: 35%;
+            height: 50%;
+        }
+
+    </style>
+
+    <div class="section__wrapper">
+        <div class="left__section">
+            <div class="height__control">
+                <div class="left__bottom-text">
+                    <h3>Title</h3>
+                    <div class="line"></div>
+                    <p>
+                        Entrepreneur, founder of the Medusha 
+                        organic honey company and developer of
+                         the product packaging technology in beeswax 
+                         biopackaging. Founder of the PartnerDecor 
+                         container decoration plant. Co-founder of 
+                         the all-Ukrainian business community for 
+                         business owners BOARD.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="right__section">
+            <div class="height__control-r">
+                <div class="right__bottom-text">
+                    <h3>Title</h3>
+                    <div class="line"></div>
+                    <p>
+                        Entrepreneur, founder of the Medusha 
+                        organic honey company and developer of
+                        the product packaging technology in beeswax 
+                        biopackaging. Founder of the PartnerDecor 
+                        container decoration plant. Co-founder of 
+                        the all-Ukrainian business community for 
+                        business owners BOARD.
+                    </p>
+                </div>
+             </div>
+        </div>
+    </div>
+
+</body>
+</html>
